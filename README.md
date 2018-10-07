@@ -1,5 +1,5 @@
-## antonmarin.github.io
+# antonmarin.github.io
 
-### Pages
+## Pages
 
 - [My best practices](my_best_practices.md)
