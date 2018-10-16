@@ -1,0 +1,14 @@
+---
+version: '2'
+
+tasks:
+  default:
+    cmds:
+      - task -s --list
+
+  serve:
+    cmds:
+      - docker run --rm -t
+        -p 4000:4000
+        -v ${PWD}:/app
+        antonmarin/github-pages:192
