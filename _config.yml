@@ -1,7 +1,9 @@
-theme: jekyll-theme-tactile
 exclude:
   - .idea
   - Gemfile
   - Gemfile.lock
   - LICENSE
   - Taskfile.yml
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-include-cache
