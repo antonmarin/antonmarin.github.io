@@ -1,6 +1,6 @@
 ---
 header:
-  image: /assets/images/falloutboy_thumbsup_1280x360.jpg
+  image: /assets/images/falloutboy_thumbs_up_1280x360.jpg
 title: Мои лучшие практики
 permalink: /my_best_practices/
 ---
