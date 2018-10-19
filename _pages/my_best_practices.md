@@ -1,5 +1,9 @@
-# Мои лучшие практики
-
+---
+header:
+  image: /assets/images/falloutboy_thumbsup_1280x360.jpg
+title: Мои лучшие практики
+permalink: /my_best_practices/
+---
 Что я считаю лучшими практиками и чего придерживаюсь.
 
 ## Документация
