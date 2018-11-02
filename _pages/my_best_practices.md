@@ -1,8 +1,12 @@
 ---
 header:
   image: /assets/images/falloutboy_thumbs_up_1280x360.jpg
-title: Мои лучшие практики
 permalink: /my_best_practices/
+title: Мои лучшие практики
+excerpt: Что я считаю лучшими практиками и чего придерживаюсь.
+date: 02.10.2018
+last_modified_at: 02.11.2018
+share: true
 ---
 Что я считаю лучшими практиками и чего придерживаюсь.
 
