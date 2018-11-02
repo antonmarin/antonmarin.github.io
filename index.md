@@ -1,4 +1,4 @@
 ---
 layout: home
 ---
-[My best](/my_best_practices/)
+[My best]({% link _pages/my_best_practices.md %})
