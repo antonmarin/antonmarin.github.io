@@ -2,5 +2,6 @@ main:
   - title: My best practices
     url: /my_best_practices/
     description: "Что я считаю лучшими практиками и чего придерживаюсь"
-  - title: Блог
-    url: /posts/
+  - title: Principles
+    url: /principles/
+    description: "Принципы, которых я придерживаюсь в профессиональной деятельности"
