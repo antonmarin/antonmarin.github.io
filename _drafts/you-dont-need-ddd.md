@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: Тебе не нужен DDD
 categories: [blog, development]
 tags: [ddd]
