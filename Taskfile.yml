@@ -22,7 +22,7 @@ tasks:
 
   build:
     cmds:
-      - docker run --rm -it
+      - docker run --rm -i
         -e JEKYLL_GITHUB_TOKEN
         -v ${PWD}:/app
         antonmarin/github-pages:latest-alpine
