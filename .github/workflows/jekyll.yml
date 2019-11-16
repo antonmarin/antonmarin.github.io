@@ -9,7 +9,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+    - name: install task
+      run: curl -sL https://taskfile.dev/install.sh | sh
     - name: lint with markdown-lint
-      run: |
-        curl -sL https://taskfile.dev/install.sh | sh && \
-        task lint
+      run: bin/task lint
