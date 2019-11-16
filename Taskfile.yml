@@ -6,6 +6,10 @@ tasks:
     cmds:
       - task -s --list
 
+  lint:
+    cmds:
+      - docker run -i --rm -v $PWD:/work tmknom/markdownlint
+
   serve:
     desc: "Start server to preview changes"
     cmds:
@@ -13,4 +17,5 @@ tasks:
         -p 4000:4000
         -e JEKYLL_GITHUB_TOKEN
         -v ${PWD}:/app
-        antonmarin/github-pages:192-alpine
+        antonmarin/github-pages:latest-alpine
+        serve -H 0.0.0.0 -P 4000 --drafts
