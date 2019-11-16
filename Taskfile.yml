@@ -19,3 +19,11 @@ tasks:
         -v ${PWD}:/app
         antonmarin/github-pages:latest-alpine
         serve -H 0.0.0.0 -P 4000 --drafts
+
+  build:
+    cmds:
+      - docker run --rm -it
+        -e JEKYLL_GITHUB_TOKEN
+        -v ${PWD}:/app
+        antonmarin/github-pages:latest-alpine
+        build --future

@@ -1,4 +1,4 @@
-name: lint
+name: default
 
 on: [push]
 
@@ -13,3 +13,5 @@ jobs:
       run: curl -sL https://taskfile.dev/install.sh | sh
     - name: lint with markdown-lint
       run: bin/task lint
+    - name: try build jekyll
+      run: task build
