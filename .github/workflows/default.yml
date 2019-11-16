@@ -14,4 +14,4 @@ jobs:
     - name: lint with markdown-lint
       run: bin/task lint
     - name: try build jekyll
-      run: task build
+      run: bin/task build
