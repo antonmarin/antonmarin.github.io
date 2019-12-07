@@ -1,6 +1,6 @@
 ---
 title: Тебе не нужен DDD
-categories: [blog, development]
+categories: [development]
 tags: [ddd]
 ---
 Бывает для изменения вывода формы обратной связи нужно изменить десяток классов.
