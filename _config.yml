@@ -19,7 +19,7 @@ search                   : true # true, false (default)
 #search_full_content      : # true, false (default)
 #search_provider          : # lunr (default), algolia, google
 # SEO Related
-google_site_verification :
+google_site_verification : "PtVEir4BQKW-fXUxSXnnEERFT7zIyLNNpohecSUNoes"
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
