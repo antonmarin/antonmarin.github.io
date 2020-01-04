@@ -25,5 +25,5 @@ tasks:
       - docker run --rm -i
         -e JEKYLL_GITHUB_TOKEN
         -v ${PWD}:/app
-        antonmarin/github-pages:latest-alpine
+        antonmarin/github-pages:203-alpine
         build --future
