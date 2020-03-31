@@ -3,15 +3,13 @@ name: default
 on: [push]
 
 jobs:
-  build:
+  test:
 
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v1
-    - name: install task
-      run: curl -sL https://taskfile.dev/install.sh | sh
-    - name: lint with markdown-lint
-      run: bin/task lint
-    - name: try build jekyll
-      run: bin/task build
+    - name: prebuild validations
+      run: make lint
+    - name: test build jekyll
+      run: make test
