@@ -133,6 +133,8 @@ _Как использовать код._
 * Хорошая ошибка расскажет как от нее избавиться.
 * Для передачи даты и времени есть широко распространенный [ISO8601 RFC3339](https://tools.ietf.org/html/rfc3339#section-5.6)
 * Есть ставишь deprecated, то объясни в пользу чего
+* Make your classes always final, if they implement an interface, and no other public methods are defined [link](https://ocramius.github.io/blog/when-to-declare-classes-final/)
+
 
 ## Постройка (не компиляция)
 
@@ -196,6 +198,10 @@ _Как использовать код._
 на платформе для разработки, для тестирования.
 * **Восстанавливаемость**. Сколько нужно секунд чтобы приложение восстановило свою
 работоспособность.
+
+### Принципы
+
+* [roave/security-advisories](https://packagist.org/packages/roave/security-advisories) улучшает защищенность
 
 ## Управление релизами
 
