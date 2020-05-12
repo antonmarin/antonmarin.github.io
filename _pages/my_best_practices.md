@@ -216,7 +216,11 @@ _Как использовать код._
 
 ## Operate
 
-Use platform to incapsulate changes
+### Принципы
+
+* Use platform to incapsulate changes
+* Postmortem - отличная обратная связь о культуре
+** [commit messages](https://chris.beams.io/posts/git-commit/)
 
 ## Мониторинг
 
