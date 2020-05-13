@@ -5,7 +5,7 @@ permalink: /my_best_practices/
 title: Мои лучшие практики
 excerpt: Что я считаю лучшими практиками и чего придерживаюсь.
 date: 02.10.2018
-last_modified_at: 17.03.2020
+last_modified_at: 13.05.2020
 share: true
 ---
 {{ page.excerpt }}
