@@ -161,6 +161,7 @@ _Как использовать код._
 * Make your classes always final, if they implement an interface,
 and no other public methods are defined
 [link](https://ocramius.github.io/blog/when-to-declare-classes-final/)
+* https://en.wikipedia.org/wiki/Robustness_principle
 
 ## Постройка (не компиляция)
 
