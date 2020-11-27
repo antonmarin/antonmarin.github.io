@@ -23,11 +23,12 @@ share: true
 практике разработки
 
 Ниже изложено в соответствии со следующей структурой:
-- **Цель**. Для чего подходит инструмент.
-- **Концепция**. Абстрактные подходы, выявленные опытом.
-- **Принципы**. Утверждение, пример, которое позволяет действовать эффективно
+
+* **Цель**. Для чего подходит инструмент.
+* **Концепция**. Абстрактные подходы, выявленные опытом.
+* **Принципы**. Утверждение, пример, которое позволяет действовать эффективно
 в определенной ситуации.
-- > Комментарий может раскрывать причину происхождения принципа
+* > Комментарий может раскрывать причину происхождения принципа
 
 ## Общее
 
@@ -160,9 +161,10 @@ _Как использовать код._
 * Если ставишь deprecated, то объясни в пользу чего.
 * Time is ambigous, timestamp and duration - not. Avoid using "time".
 * Make your classes always final, if they implement an interface,
-and no other public methods are defined
+  and no other public methods are defined
 [link](https://ocramius.github.io/blog/when-to-declare-classes-final/)
-* https://en.wikipedia.org/wiki/Robustness_principle
+* [Robustness principle](https://en.wikipedia.org/wiki/Robustness_principle) simplifies
+  communications in distributed systems
 * Логируя разветвления, проще понять поведение в боевой среде
 
 ## Постройка (не компиляция)
@@ -237,7 +239,8 @@ and no other public methods are defined
 ### Принципы
 
 * Защищенность системы равна минимальной защищенности компонентов системы.
-* Контроль защищенности зависимостей, например [roave/security-advisories](https://packagist.org/packages/roave/security-advisories), улучшает защищенность
+* Контроль защищенности зависимостей, например [roave/security-advisories](https://packagist.org/packages/roave/security-advisories),
+  улучшает защищенность
 
 ## Управление релизами
 

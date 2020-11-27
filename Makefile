@@ -8,16 +8,16 @@ help:
 	"
 
 lint:
-	docker run --rm -i -v $(PWD):/work \
-		tmknom/markdownlint -i _drafts/notes.md /work
+	docker run --rm -it -v $(PWD):/work \
+		tmknom/markdownlint -i _drafts/ /work
 
 serve:
-	docker run --rm -i -v $(PWD):/app \
+	docker run --rm -it -v $(PWD):/app \
 		-p 4000:4000 -e JEKYLL_GITHUB_TOKEN \
 		antonmarin/github-pages:latest-alpine serve -H 0.0.0.0 -P 4000 --drafts
 
 test:
 	rm Gemfile* || true
-	docker run --rm -i -v $(PWD):/app \
+	docker run --rm -it -v $(PWD):/app \
 		-e JEKYLL_GITHUB_TOKEN \
 		antonmarin/github-pages:204-alpine build --future
