@@ -8,7 +8,7 @@ help:
 	"
 
 lint:
-	docker run --rm -it -v $(PWD):/work \
+	docker run --rm -i -v $(PWD):/work \
 		tmknom/markdownlint -i _drafts/ /work
 
 serve:
@@ -18,6 +18,6 @@ serve:
 
 test:
 	rm Gemfile* || true
-	docker run --rm -it -v $(PWD):/app \
+	docker run --rm -i -v $(PWD):/app \
 		-e JEKYLL_GITHUB_TOKEN \
-		antonmarin/github-pages:204-alpine build --future
+		antonmarin/github-pages:209-alpine build --future
