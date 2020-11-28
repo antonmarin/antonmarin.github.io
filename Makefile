@@ -8,8 +8,8 @@ help:
 	"
 
 lint:
-	docker run --rm -i -v $(PWD):/work \
-		tmknom/markdownlint -i _drafts/ /work
+	docker run --rm -v "$(PWD):/app" -w /app markdownlint/markdownlint -i /app/_pages
+	docker run --rm -v "$(PWD):/app" -w /app markdownlint/markdownlint -i /app/_posts
 
 serve:
 	docker run --rm -it -v $(PWD):/app \
