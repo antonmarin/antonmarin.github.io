@@ -12,12 +12,11 @@ lint:
 	docker run --rm -v "$(PWD):/app" -w /app markdownlint/markdownlint -i /app/_posts
 
 serve:
-	docker run --rm -it -v $(PWD):/app \
+	docker run --rm -it -v $(PWD):/srv/jekyll \
 		-p 4000:4000 -e JEKYLL_GITHUB_TOKEN \
-		antonmarin/github-pages:latest-alpine serve -H 0.0.0.0 -P 4000 --drafts
+		jekyll/jekyll:pages sh -c "apk add libc-dev gcc make && jekyll serve -H 0.0.0.0 -P 4000 --drafts"
 
 test:
-	rm Gemfile* || true
-	docker run --rm -i -v $(PWD):/app \
+	docker run --rm -i -v $(PWD):/srv/jekyll \
 		-e JEKYLL_GITHUB_TOKEN \
-		antonmarin/github-pages:209-alpine build --future
+		jekyll/jekyll:pages sh -c "apk add libc-dev gcc make && jekyll build --future"
