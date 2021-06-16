@@ -19,4 +19,4 @@ serve:
 test:
 	docker run --rm -i -v $(PWD):/srv/jekyll \
 		-e JEKYLL_GITHUB_TOKEN \
-		jekyll/jekyll:pages sh -c "apk add libc-dev gcc make && jekyll build --future"
+		jekyll/jekyll:pages sh -c "apk add libc-dev gcc make && jekyll build --future -d /tmp/_site"
