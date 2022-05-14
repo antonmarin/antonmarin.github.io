@@ -168,6 +168,7 @@ _Как использовать код._
 * Если IDE регламентирована, то отдавая приоритет инструментам
   автоматического рефакторинга IDE, увеличиваем гибкость
 * Чем чаще код изменяется тем проще с ним работать [link](https://martinfowler.com/bliki/FrequencyReducesDifficulty.html)
+* Распределенные системы не панацея - у них свои недостатки [link](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
 
 ## Постройка (не компиляция)
 
