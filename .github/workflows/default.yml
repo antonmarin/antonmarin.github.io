@@ -11,5 +11,3 @@ jobs:
     - uses: actions/checkout@v1
     - name: prebuild validations
       run: make lint
-    - name: test build jekyll
-      run: make test
