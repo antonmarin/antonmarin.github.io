@@ -164,6 +164,7 @@ _Как использовать код._
 * [Robustness principle](https://en.wikipedia.org/wiki/Robustness_principle) simplifies
   communications in distributed systems
 * Логируя разветвления, проще понять поведение в боевой среде
+* Хорошее именование инкапсулирует логику, соответствует принятым практикам(паттернам)
 
 ## Постройка (не компиляция)
 
