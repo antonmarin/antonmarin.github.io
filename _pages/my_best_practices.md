@@ -163,7 +163,7 @@ _Как использовать код._
   and no other public methods are defined [link](https://ocramius.github.io/blog/when-to-declare-classes-final/)
 * [Robustness principle](https://en.wikipedia.org/wiki/Robustness_principle) simplifies
   communications in distributed systems
-* Логируя разветвления, проще понять поведение в боевой среде
+* Логируя разветвления, проще понять поведение в боевой среде [PokeMonitor](https://www.rookout.com/blog/the-5-approaches-to-production-debugging/)
 * Хорошее именование инкапсулирует логику, соответствует принятым практикам(паттернам)
 * Если IDE регламентирована, то отдавая приоритет инструментам
   автоматического рефакторинга IDE, увеличиваем гибкость
