@@ -54,6 +54,8 @@ tags: [ddd,architecture]
     - `OrderShipped`
 - `Application` # запуск приложения
 
+![code structure actors](/assets/images/structure.svg)
+
 # Словарик
 
 - Соседний - коллега, который не знаком с предметной областью или кодом приложения
