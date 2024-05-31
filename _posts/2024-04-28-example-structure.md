@@ -56,6 +56,8 @@ tags: [ddd,architecture]
 
 ![code structure actors](/assets/images/structure.svg)
 
+[//]: <> (https://www.plantuml.com/plantuml/svg/NP5DQiGm38NtEeMMayLS89Go4EW5sdrHRMLiujZ1KWPw-tgKOjAk0X_lvoc-YLBLVKqmbbq_FJz6l5vVySBPRoLcbG5oKSR4isAPiNC8gXiiD2y4uWBxFV55IPRcQ29ykW36c3FNKwuZuQOOALFwrkZau8QXXsD7LbxZFLZxmQRAf3pHkb6yvwanc2YvFJNw4LUMmAo6tqhbvj6pzhJEul35XiKyLngWxyK6ZVsRS33_zNkwNMp_0eNh8pgMNl0dtvULOXxW-3uXlYij74hoN0LkpTNUuGS0)
+
 # Словарик
 
 - Соседний - коллега, который не знаком с предметной областью или кодом приложения
