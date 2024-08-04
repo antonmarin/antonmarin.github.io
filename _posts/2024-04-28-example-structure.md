@@ -36,6 +36,7 @@ tags: [ddd,architecture]
   - `storage` # данные. Часто используются DataMapper или Repository.
     - `http` # данные из внешних источников по http
     - `postgresql` # данные из postgresql
+       - `ProductsRepository : domain.showcase.contracts.ProductsStorage`
   - `schedule` # система обработки задач по расписанию или очереди
     - `ScheduleOutbox : TransactionalOutbox` # интеграция через систему расписаний. Используется для взаимодействия между контекстами
   - `kafka` # транспорт через систему асинхронных сообщений, например Kafka
