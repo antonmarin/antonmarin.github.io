@@ -18,6 +18,7 @@ tags: [ddd,architecture]
 # TLDR
 
 [Пример](https://github.com/antonmarin/example-structure/tree/main/src/main/kotlin)
+
 ![structure example](/assets/images/example-structure.png)
 
 - `endpoints` # точки входа в приложение. Помогает соседнему разработчику найти как приложение использует данные, которые он ему поставляет
